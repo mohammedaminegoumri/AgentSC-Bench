@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use AgentSC-Bench, please cite it as below."
+title: "AgentSC-Bench: An Open Benchmark for Reliable Agentic AI in Multi-Echelon Supply Chains"
+version: 0.1.0
+date-released: 2026-08-16
+license: Apache-2.0
+authors:
+  - family-names: "Goumri"
+    given-names: "Mohammed Amine"
+    orcid: ""
+    affiliation: ""
+    email: "mohammedaminegoumri@proton.me"
+abstract: >
+  An open, reproducible experimental framework for systematically evaluating
+  architectures of LLM-based autonomous agents in multi-echelon supply chains,
+  with explicit measurement of reliability, coordination quality, bullwhip effects,
+  disruption recovery, autonomy and decision consistency.
+keywords:
+  - supply chain
+  - multi-agent systems
+  - large language models
+  - benchmark
+  - bullwhip effect
+  - reliability
+  - beer game
