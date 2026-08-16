@@ -1,0 +1,16 @@
+experiment_id: baseline_base_stock_stable
+scenario: stable
+architecture: classical
+classical_policy: base_stock
+info_mode: local
+seeds: [42, 43, 44]
+n_episodes: 1
+environment:
+  echelons: [retailer, wholesaler, distributor, manufacturer]
+  initial_inventory: 12.0
+  lead_time: 2
+  holding_cost: 0.5
+  backlog_cost: 1.0
+  max_periods: 40
+agent:
+  target: 20.0

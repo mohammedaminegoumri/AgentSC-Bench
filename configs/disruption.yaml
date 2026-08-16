@@ -1,0 +1,16 @@
+experiment_id: disruption_classical
+scenario: supplier_disruption
+architecture: classical
+classical_policy: order_up_to
+info_mode: local
+seeds: [42, 43]
+n_episodes: 1
+environment:
+  echelons: [retailer, wholesaler, distributor, manufacturer]
+  initial_inventory: 12.0
+  lead_time: 2
+  holding_cost: 0.5
+  backlog_cost: 1.0
+agent:
+  lead_time: 2
+  safety: 4.0

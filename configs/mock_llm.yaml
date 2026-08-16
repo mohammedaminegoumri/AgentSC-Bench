@@ -1,0 +1,17 @@
+experiment_id: mock_llm_stable
+scenario: stable
+architecture: mock_llm
+model: mock-base-stock
+temperature: 0.0
+noise_std: 0.3
+info_mode: local
+seeds: [42, 43, 44]
+n_episodes: 1
+environment:
+  echelons: [retailer, wholesaler, distributor, manufacturer]
+  initial_inventory: 12.0
+  lead_time: 2
+  holding_cost: 0.5
+  backlog_cost: 1.0
+  max_periods: 40
+agent: {}
