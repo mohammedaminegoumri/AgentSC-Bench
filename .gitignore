@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+secrets/
+
+# Results (keep structure, ignore large outputs)
+results/**
+!results/.gitkeep
+!results/examples/
+logs/
+*.log
+
+# Data / caches
+.cache/
+*.parquet
+!results/examples/*.parquet
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage / mypy
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
